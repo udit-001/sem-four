@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Interpolation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="load()">
+    <div id=container>
+        <div id=navigator>
+            <div id=bar>
+                <div id=menu>
+                    <i class="fas fa-long-arrow-alt-left fa-s" id="back" onclick='back()'></i>
+                    <div id="title"></div>
+                </div>
+            </div>
+            <div id=content-list>
+                <ul id=items>
+                </ul>
+            </div>
+        </div>
+        <div id=video-content>
+            <div id=video-header>
+                <div id="nav_menu" onclick="collapse()">
+                    <i class="fas fa-bars fa-lg"></i>
+                </div>
+                <div id="video-title">
+                </div>
+            </div>
+            <div id=video>
+                <iframe id=video-fr src="http://youtube.com/embed/0000000?iv_load_policy=3&rel=0&showinfo=0&showsearch=0&autohide=1&modestbranding=1" height="90%" width=98% frameborder="0" allowfullscreen=""></iframe>
+                <div id="player">
+                    <button onclick="previous()" id=previous><i class="fas fa-step-backward"></i> Previous</button>
+                    <button onclick="next()" id=next>Next <i class="fas fa-step-forward"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
