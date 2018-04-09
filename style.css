@@ -130,19 +130,25 @@ button:hover {
 }
 
 .header {
-  font-size: 22px;
+  font-size: calc(1vw + 3vh);
   width: 100%;
   background-color: #0097A7;
   color: white;
   text-align: center;
   vertical-align: middle;
   line-height: 70px;
+  position: fixed;
+  top:0;
+  z-index: 1;
 }
 
 .container {
   display: flex;
   margin: 18px;
   flex-wrap: wrap;
+  position: absolute;
+  top:70px;
+  z-index: 0;
 }
 
 .card {
