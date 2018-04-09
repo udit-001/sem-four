@@ -221,7 +221,7 @@ function next() {
     for (i = 0; i < data[index].items.length; i++) {
         if (name.innerText == data[index].items[i].name) {
 
-            if ((i + 1) === 6) {
+            if ((i + 1) === (data[index].items.length - 1)) {
                 document.getElementById("next").style.visibility = "hidden";
                 document.getElementById("previous").style.visibility = "visible";
             } else {
