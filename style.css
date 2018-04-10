@@ -140,6 +140,7 @@ button:hover {
   position: fixed;
   top:0;
   z-index: 1;
+  box-shadow: 0 8px 6px -6px #999
 }
 
 .container {
