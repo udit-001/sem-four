@@ -278,7 +278,7 @@ function previous() {
 }
 
 function back() {
-    window.location = "./index.html";
+    window.location = "./";
 }
 
 function cardPressed(element) {
