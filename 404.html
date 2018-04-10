@@ -4,22 +4,64 @@
 	<title>
 		Mathematics Tutorials
 	</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Muli');
-	body{
-		margin:0;
-		background-color: #004346;
-		color:white;
-		font-family: Muli;
-		line-height: 100vh;
-		vertical-align: middle;
-		text-align:center;
-		font-size:10vw;
-		white-space: nowrap;
+
+	body {
+  		margin: 0;
+  		background-color: #004346;
+  		color: white;
+  		font-size: 10vw;
+  		font-family: Muli;
+  		text-align: center;
+  		white-space: nowrap;
+  		position: fixed;
+  		top: calc(10vh + 8vw);
+  		left: 0;
+  		right: 0;
 	}
+
+	p {
+  		font-size: 3.01vw;
+	}
+
+	a {
+  		text-decoration: none;
+  		color: white;
+	}
+
+	button {
+  		height: 60px;
+  		background-color: #172A3A;
+  		border-color: transparent;
+  		border-width: 0px;
+  		border-radius: 10px;
+  		color: white;
+  		font-family: Muli;
+  		font-size: 16px;
+  		padding: 12px;
+  		flex: 1;
+  		margin: 2px 10px 4px 10px;
+  		cursor: pointer;
+  		outline: none;
+  		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+        	       	0 1px 5px 0 rgba(0, 0, 0, 0.12), 
+	              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+		}
+
+	button:hover {
+  			background-color: white;
+  			border-style: solid;
+  			border-color: #172A3A;
+  			border-width: 1px;
+  			color: #172A3A;
+  			font-weight: bold;
+		}
 	</style>
 </head>
 <body>
-	Coming Soon!
+	<div>Coming Soon!</div>
+	<button onclick="window.location = '/'">Take Me Back  <i class="fas fa-arrow-circle-left"></i></button>
 </body>
 </html>
