@@ -823,6 +823,222 @@ var data = [{
                 "watchid": "c625P4B0OY0"
             },
         ]
+    },
+	{
+        "name": "Statistics - Random Variable",
+        "items": [{
+                "name": "Random Variable",
+                "watchid": "bQ0ad5YMhzk"
+            },
+            {
+                "name": "Random Variable - Terminology Review",
+                "watchid": "aEB07VIIfKs"
+            },
+            {
+                "name": "Random Variable - Ex. 1: Flipping Coins",
+                "watchid": "ebP7x2zviBI"
+            },
+            {
+                "name": "Types of Random Variable",
+                "watchid": "sUFn2vQRNBM"
+            },
+            {
+                "name": "Probability Distribution (Discrete)",
+                "watchid": "mtt3h54aSkk"
+            },
+            {
+                "name": "Probability Distribution (Discrete)",
+                "watchid": "zHIOF6Ip_i4"
+            },
+            {
+                "name": "Probability Distribution (Non-Discrete)",
+                "watchid": "RBTWgElcTKU"
+            },
+            {
+                "name": "Probability Distribution: Histogram",
+                "watchid": "L2TwSQk7_g4"
+            },
+            {
+                "name": "Probability Dist: Skewed Histogram",
+                "watchid": "dBqAjZZcpqE"
+            },
+            {
+                "name": "Continuous Random Variables",
+                "watchid": "NVZqbf6zhGA"
+            },
+            {
+                "name": "The Mean Average",
+                "watchid": "TzTNwpdc6FE"
+            },
+            {
+                "name": "The Expected Value Ex. 1",
+                "watchid": "d2oSMYlbQSo"
+            },
+            {
+                "name": "The Expected Value Ex. 2",
+                "watchid": "k2l3BCd6Xjk"
+            },
+            {
+                "name": "The Expected Value Ex. 3",
+                "watchid": "YgXvOotb9lA"
+            },
+            {
+                "name": "Expected Value of Roulette",
+                "watchid": "Cqj8bUZXBnk"
+            },
+            {
+                "name": "Odds of Roulette",
+                "watchid": "FgcjBZyCjzo"
+            },
+            {
+                "name": "Odds in Favor & Against Ex. 1",
+                "watchid": "k5Da9CV7c_w"
+            },
+            {
+                "name": "Odds in Favor & Against Ex. 2",
+                "watchid": "ypZIEg-yoFw"
+            },
+            {
+                "name": "Odds in Favor & Against Ex. 3",
+                "watchid": "l_3kU4kIPWs"
+            },
+            {
+                "name": "Odds in Favor & Against Ex. 4",
+                "watchid": "8qNU-WunQ-4"
+            },
+            {
+                "name": "Mean, Median, Mode",
+                "watchid": "Z7pOQkouFjs"
+            },
+            {
+                "name": "Mean, Median, Mode Ex. 2",
+                "watchid": "9qNt13lLq4w"
+            },
+            {
+                "name": "Mean, Median, Mode Ex. 3",
+                "watchid": "UmuiykCrg0o"
+            },
+            {
+                "name": "Mean, Median, Mode Ex. 4",
+                "watchid": "n7yMaXAhicc"
+            },
+            {
+                "name": "Expected Value - Example 1",
+                "watchid": "OOLYgTMP0mY"
+            },
+            {
+                "name": "Expected Value - Example 2",
+                "watchid": "2dw-HG9EgJ4"
+            },
+            {
+                "name": "Expected Value - Example 3",
+                "watchid": "wopGBIPmq28"
+            },
+            {
+                "name": "Variance Explained",
+                "watchid": "jiN-03T2nHM"
+            },
+            {
+                "name": "Variance (Probability Distribution)",
+                "watchid": "FzHqjh2pnsw"
+            },
+            {
+                "name": "Standard Deviation",
+                "watchid": "cVK8U1lAf7k"
+            },
+            {
+                "name": "Standard Deviation - 2",
+                "watchid": "XiTMW8-aXXM"
+            },
+            {
+                "name": "Standard Deviation - 3",
+                "watchid": "cY14G3wJmwg"
+            },
+            {
+                "name": "Standard Deviation - 3",
+                "watchid": "c68SSpKUiOk"
+            },
+            {
+                "name": "Normal Distribution",
+                "watchid": "6_Yj9EJTWkc"
+            },
+            {
+                "name": "Normal Distribution Eqn",
+                "watchid": "DXtEr7_J8I0"
+            },
+            {
+                "name": "Normal Distribution Table",
+                "watchid": "dmzHJ7mwBmU"
+            },
+            {
+                "name": "Binomial Distribution",
+                "watchid": "bpyC-yggXHc"
+            },
+            {
+                "name": "Binomial Dist. - General Case",
+                "watchid": "uO166WiwFFg"
+            },
+            {
+                "name": "Binomial Distribution: Example",
+                "watchid": "avcOQ9TWWBs"
+            },
+            {
+                "name": "Binomial Distribution: Graphing",
+                "watchid": "yvdXEBkqh4Q"
+            },
+            {
+                "name": "Using Binomial Expansion",
+                "watchid": "RNpLG7qVXuI"
+            },
+            {
+                "name": "Non-Symmetric Binomial Dist.",
+                "watchid": "B3bRFhshbpE"
+            },
+            {
+                "name": "The Expected Value",
+                "watchid": "0FIKgUwezxE"
+            },
+            {
+                "name": "Variance",
+                "watchid": "zup2EhXJSsk"
+            },
+            {
+                "name": "Binomial Distribution",
+                "watchid": "XWBCrgKkRnY"
+            },
+            {
+                "name": "Standard Deviation n=large #",
+                "watchid": "qdHAvUDpk-M"
+            },
+            {
+                "name": "Standard Deviation n=large #",
+                "watchid": "nt5babLSHco"
+            },
+            {
+                "name": "Calculating the Table",
+                "watchid": "SOYsa2TU4II"
+            },
+            {
+                "name": "Binomial Dist. - Approx.",
+                "watchid": "m_D6ffGzvtE"
+            },
+            {
+                "name": "Binomial Dist. - Approx. 2",
+                "watchid": "W7Ud3zRv9g0"
+            },
+            {
+                "name": "Binomial Dist. - Approx. 3",
+                "watchid": "1nnV5T8i9SY"
+            },
+            {
+                "name": "Binomial Dist. - Approx. 4",
+                "watchid": "bQuMLwPEBaQ"
+            },
+            {
+                "name": "Binomial Dist. - Approx. 5",
+                "watchid": "q3gJJuBZunw"
+            }
+        ]
     }
 ]
 
