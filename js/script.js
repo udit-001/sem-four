@@ -1291,7 +1291,599 @@ var data = [{
                 "watchid": "GZhluej5gfE"
             }
         ]
-    }
+    },
+    {
+	"name": "Intermediate Java",
+	"items": [{
+			"name": "Common String Methods",
+			"watchid": "vW53w7me4AE"
+		},
+		{
+			"name": "Some More String Methods",
+			"watchid": "Qi09pWsc7nA"
+		},
+		{
+			"name": "Recursion",
+			"watchid": "fpuWkZs51aM"
+		},
+		{
+			"name": "Introduction to Collections",
+			"watchid": "jU5ACV5MucM"
+		},
+		{
+			"name": "ArrayList Program",
+			"watchid": "uoLgfgcB3XQ"
+		},
+		{
+			"name": "LinkedList",
+			"watchid": "BRcY2vIr-EQ"
+		},
+		{
+			"name": "LinkedList Program",
+			"watchid": "rW2OppsgJjQ"
+		},
+		{
+			"name": "Converting Lists to Arrays",
+			"watchid": "Sj2kCLjZZgk"
+		},
+		{
+			"name": "Collections Method sort",
+			"watchid": "1QhS0aTiFhQ"
+		},
+		{
+			"name": "Methods reverse and copy",
+			"watchid": "CfJCamxV3NQ"
+		},
+		{
+			"name": "Collections Methods fill",
+			"watchid": "C_etrOreNQM"
+		},
+		{
+			"name": "addAll",
+			"watchid": "pUT9C9Mo0WM"
+		},
+		{
+			"name": "frequency, disjoint",
+			"watchid": "_8JMw7VATZA"
+		},
+		{
+			"name": "Stacks, push, pop",
+			"watchid": "8TMBjfS8wY0"
+		},
+		{
+			"name": "Queue",
+			"watchid": "ZRs6dN_xUU0"
+		},
+		{
+			"name": "HashSet",
+			"watchid": "Wd4jfE-iNnE"
+		},
+		{
+			"name": "Generic Methods",
+			"watchid": "J6B_qauxfuc"
+		},
+		{
+			"name": "Implementing a Generic Method",
+			"watchid": "ZoJaD0Qoi0o"
+		},
+		{
+			"name": "Generic Return Types",
+			"watchid": "QB5pQT45zvg"
+		},
+		{
+			"name": "Introduction to Applets",
+			"watchid": "2owQOOuRX60"
+		},
+		{
+			"name": "How to put an Applet on a Website",
+			"watchid": "P6skXp4sLdQ"
+		},
+		{
+			"name": "init for Applets",
+			"watchid": "Ud9G_AFqTsk"
+		},
+		{
+			"name": "Drawing an Oval with Slider",
+			"watchid": "ME4k3U05RMo"
+		},
+		{
+			"name": "Building the Window for the Slider",
+			"watchid": "I1X9QUb-C1k"
+		},
+		{
+			"name": "Finishing the Oval Slider Program",
+			"watchid": "X8ffr3UeE8c"
+		},
+		{
+			"name": "Learning about Threads",
+			"watchid": "VYN-CBtPNiM"
+		},
+		{
+			"name": "What do I look like, a Thread?",
+			"watchid": "oUSpVDbT5eg"
+		},
+		{
+			"name": "Beginning Networking",
+			"watchid": "dlgnmZD-Dzk"
+		},
+		{
+			"name": "Making a Simple Networking Applet",
+			"watchid": "CadrkLb4AAU"
+		},
+		{
+			"name": "init for Networking Applet",
+			"watchid": "nZJbjC7pOl0"
+		},
+		{
+			"name": "Listening for User Events",
+			"watchid": "vrl8AJCSKL4"
+		},
+		{
+			"name": "Getting the Data from the HTML File",
+			"watchid": "FMV1eMapiSY"
+		},
+		{
+			"name": "Uploading and Testing the Applet",
+			"watchid": "kXGHTYRgjgk"
+		},
+		{
+			"name": "Creating a Simple Web Browser",
+			"watchid": "anoPsxasIBE"
+		},
+		{
+			"name": "Building the GUI",
+			"watchid": "1Fqeik0iN3s"
+		},
+		{
+			"name": "loadCrap",
+			"watchid": "PVOG57JaHPg"
+		},
+		{
+			"name": "Best Browser Ever?",
+			"watchid": "1mHqkbt0w6Y"
+		},
+		{
+			"name": "Awesome Instant Messaging Program with Streams and Sockets",
+			"watchid": "pr02nyPqLBU"
+		},
+		{
+			"name": "GUI for Bucky Instant Messenger",
+			"watchid": "9gDErZCtdzM"
+		},
+		{
+			"name": "Setting Up the Server",
+			"watchid": "vJ3jAaKPFIU"
+		},
+		{
+			"name": "Waiting for a Connection",
+			"watchid": "7Y2rj3tFQK0"
+		},
+		{
+			"name": "Setting Up the Streams",
+			"watchid": "OqPH0SSjjH0"
+		},
+		{
+			"name": "whileChatting",
+			"watchid": "pERSi0SjgyI"
+		},
+		{
+			"name": "Closing Down the Streams and Sockets",
+			"watchid": "KenYq5Na8QY"
+		},
+		{
+			"name": "How to Send Messages",
+			"watchid": "r-yuvNv58nM"
+		},
+		{
+			"name": "Displaying Messages in the Chat Window",
+			"watchid": "S8bEQMYDzkU"
+		},
+		{
+			"name": "Giving the User Permission to Type",
+			"watchid": "Vlu2m5wCwjg"
+		},
+		{
+			"name": "Testing the Servers Instant Messenger",
+			"watchid": "MYjodmqION0"
+		},
+		{
+			"name": "Beginning the Client Messaging System",
+			"watchid": "Igx1uEfCcXI"
+		},
+		{
+			"name": "Creating the GUI for the Client",
+			"watchid": "YFqVL2qSMs0"
+		},
+		{
+			"name": "Setting Up the Client for Chatting",
+			"watchid": "a_4NM9duhSY"
+		},
+		{
+			"name": "Connecting to the Server",
+			"watchid": "XJpgUbUzGOg"
+		},
+		{
+			"name": "Setting Up the Client Streams",
+			"watchid": "r8qUd4lINmI"
+		},
+		{
+			"name": "whileChatting Client",
+			"watchid": "eEmfeZNF_f4"
+		},
+		{
+			"name": "Closing Down the Client Stuff",
+			"watchid": "_hP3IfnrJ5U"
+		},
+		{
+			"name": "Sending Messages to the Server",
+			"watchid": "-5SDy0am1QI"
+		},
+		{
+			"name": "showMessage and ableToType",
+			"watchid": "d0E7xVgiWog"
+		},
+		{
+			"name": "Finishing the Coding for the Instant Message Program",
+			"watchid": "qEcztLI84A4"
+		},
+		{
+			"name": "Running Buckys Instant Messenger!",
+			"watchid": "pyqThWRHiHA"
+		}
+	]
+},
+{
+	"name": "Java For Beginners",
+	"items": [{
+			"name": "Installing the JDK",
+			"watchid": "Hl-zzrqQoSE"
+		},
+		{
+			"name": "Running a Java Program",
+			"watchid": "5u8rFbpdvds"
+		},
+		{
+			"name": "Downloading Eclipse",
+			"watchid": "CE8UIbb_4iM"
+		},
+		{
+			"name": "Hello YouTube",
+			"watchid": "SHIT5VkNrCg"
+		},
+		{
+			"name": "Variables",
+			"watchid": "gtQJXzi3Yns"
+		},
+		{
+			"name": "Getting User Input",
+			"watchid": "5DdacOkrTgo"
+		},
+		{
+			"name": "Building a Basic Calculator",
+			"watchid": "ANuuSFY2BbY"
+		},
+		{
+			"name": "Math Operators",
+			"watchid": "8ZaTSedtf9M"
+		},
+		{
+			"name": "Increment Operators",
+			"watchid": "ydcTx6idTs0"
+		},
+		{
+			"name": "If Statement",
+			"watchid": "iMeaovDbgkQ"
+		},
+		{
+			"name": "Logical Operators",
+			"watchid": "PAaqgTr7Cx4"
+		},
+		{
+			"name": "Switch Statement",
+			"watchid": "RVRPmeccFT0"
+		},
+		{
+			"name": "While Loop",
+			"watchid": "8ZuWD2CBjgs"
+		},
+		{
+			"name": "Using Multiple Classes",
+			"watchid": "XqTg2buXS5o"
+		},
+		{
+			"name": "Use Methods with Parameters",
+			"watchid": "7MBgaF8wXls"
+		},
+		{
+			"name": "Many Methods and Instances",
+			"watchid": "9t78g0U8VyQ"
+		},
+		{
+			"name": "Constructors",
+			"watchid": "tPFuVRbUTwA"
+		},
+		{
+			"name": "Nested if Statements",
+			"watchid": "Y4xFGCyt1ww"
+		},
+		{
+			"name": "else if Statement",
+			"watchid": "C0YRYVn_BeI"
+		},
+		{
+			"name": "Conditional Operators",
+			"watchid": "Y6NheSwTsDs"
+		},
+		{
+			"name": "Simple Averaging Program",
+			"watchid": "KXuQQh6AynQ"
+		},
+		{
+			"name": "for Loops",
+			"watchid": "rjkYAs6gAkk"
+		},
+		{
+			"name": "Compound Interest Program",
+			"watchid": "T9TcAm9g0mo"
+		},
+		{
+			"name": "do while Loops",
+			"watchid": "nfr52iR0Pyg"
+		},
+		{
+			"name": "Math Class Methods",
+			"watchid": "JzMdepMLW44"
+		},
+		{
+			"name": "Random Number Generator",
+			"watchid": "AhwIYAXPASw"
+		},
+		{
+			"name": "Introduction to Arrays",
+			"watchid": "L06uGnF4IpY"
+		},
+		{
+			"name": "Creating an Array Table",
+			"watchid": "nTF-RcgsV0E"
+		},
+		{
+			"name": "Summing Elements of Arrays",
+			"watchid": "etyrkipdKvc"
+		},
+		{
+			"name": "Array Elements as Counters",
+			"watchid": "pHxtKDENDdE"
+		},
+		{
+			"name": "Enhanced for Loop",
+			"watchid": "w41D0V-BnKQ"
+		},
+		{
+			"name": "Arrays in Methods",
+			"watchid": "rzXoz2KOP7E"
+		},
+		{
+			"name": "Multidimensional Arrays",
+			"watchid": "ctab5xPv-Vk"
+		},
+		{
+			"name": "Table for Multi Arrays",
+			"watchid": "hbot9MQVHOM"
+		},
+		{
+			"name": "Variable Length Arguments",
+			"watchid": "BFL1oWnEO2k"
+		},
+		{
+			"name": "Time Class",
+			"watchid": "o4Or0PMI_aI"
+		},
+		{
+			"name": "Display Regular time",
+			"watchid": "E0BTAqIltFc"
+		},
+		{
+			"name": "Public, Private and this",
+			"watchid": "csjfLTt6-io"
+		},
+		{
+			"name": "Multiple Constructors",
+			"watchid": "LS7BzkBzn3Y"
+		},
+		{
+			"name": "Set and Get Methods",
+			"watchid": "eqP5X6APc5w"
+		},
+		{
+			"name": "Building Objects for Constructors",
+			"watchid": "MK2SMJZbUmU"
+		},
+		{
+			"name": "toString",
+			"watchid": "l0N6WvIVoUI"
+		},
+		{
+			"name": "Composition",
+			"watchid": "ZBkyPA6NZR8"
+		},
+		{
+			"name": "Enumeration",
+			"watchid": "uFGrL5vyp54"
+		},
+		{
+			"name": "EnumSet range",
+			"watchid": "r-_6fJpC-pk"
+		},
+		{
+			"name": "Static",
+			"watchid": "Mhxp5dZOy78"
+		},
+		{
+			"name": "More on Static",
+			"watchid": "14c1oJjgC8g"
+		},
+		{
+			"name": "final",
+			"watchid": "Suxdg95FV1w"
+		},
+		{
+			"name": "Inheritance",
+			"watchid": "9JpNY-XAseg"
+		},
+		{
+			"name": "Graphical User Interface GUI",
+			"watchid": "jJjg4JweJZU"
+		},
+		{
+			"name": "GUI with JFrame",
+			"watchid": "jUdIAgJ7JKo"
+		},
+		{
+			"name": "Event Handling",
+			"watchid": "3EE7E3bvfe8"
+		},
+		{
+			"name": "ActionListner",
+			"watchid": "qhYook53olE"
+		},
+		{
+			"name": "Event Handler Program",
+			"watchid": "M1_-sigEPtE"
+		},
+		{
+			"name": "Intoduction to Polymorphism",
+			"watchid": "0xw06loTm1k"
+		},
+		{
+			"name": "Polymorphic Arguements",
+			"watchid": "KKbN5pjBZGM"
+		},
+		{
+			"name": "Overriding Rules",
+			"watchid": "zN9pKULyoj4"
+		},
+		{
+			"name": "Abstract and Concrete Classes",
+			"watchid": "TyPNvt6Zg8c"
+		},
+		{
+			"name": "Class to Hold Objects",
+			"watchid": "slY5Ag7IjM0"
+		},
+		{
+			"name": "Array Holding Many Objects",
+			"watchid": "0--h2x6HENA"
+		},
+		{
+			"name": "Simple Polymorphic Program",
+			"watchid": "6d0m_L8_1XU"
+		},
+		{
+			"name": "JButton",
+			"watchid": "6iV-v_m0z0w"
+		},
+		{
+			"name": "JButton Final Program",
+			"watchid": "3RQOikbGGUM"
+		},
+		{
+			"name": "JCheckBox",
+			"watchid": "_UuDuj-RNRg"
+		},
+		{
+			"name": "The Final Check Box Program",
+			"watchid": "Y8zKDsenQFA"
+		},
+		{
+			"name": "JRadioButton",
+			"watchid": "_d4CU9MveLE"
+		},
+		{
+			"name": "JRadioButton Final Program",
+			"watchid": "-ptlsT9KsM8"
+		},
+		{
+			"name": "JComboBox",
+			"watchid": "vd-k2oBMXUI"
+		},
+		{
+			"name": "Drop Down List Program",
+			"watchid": "XS4-5GmRnp8"
+		},
+		{
+			"name": "JList",
+			"watchid": "GBlKa8cNROM"
+		},
+		{
+			"name": "JList Program",
+			"watchid": "aLkkYbHz16E"
+		},
+		{
+			"name": "Multiple Selection List",
+			"watchid": "9z_8yEv7nIc"
+		},
+		{
+			"name": "Moving List Items Program",
+			"watchid": "68X8RUxeXeA"
+		},
+		{
+			"name": "Mouse Events",
+			"watchid": "hsHqhX0s7Rs"
+		},
+		{
+			"name": "MouseListener interface",
+			"watchid": "MpIHF4V3zMc"
+		},
+		{
+			"name": "MouseMotionListener interface",
+			"watchid": "sdUJR_DSyBU"
+		},
+		{
+			"name": "Adapter Classes",
+			"watchid": "UuKNGMCfSkQ"
+		},
+		{
+			"name": "File Class",
+			"watchid": "7fC9nL3_AQQ"
+		},
+		{
+			"name": "Creating Files",
+			"watchid": "G0DfmD0KKyc"
+		},
+		{
+			"name": "Writing to Files",
+			"watchid": "Bws9aQuAcdg"
+		},
+		{
+			"name": "Reading from Files",
+			"watchid": "3RNYUKxAgmw"
+		},
+		{
+			"name": "Exception Handling",
+			"watchid": "K_-3OLkXkzY"
+		},
+		{
+			"name": "FlowLayout",
+			"watchid": "DFQzFJqOSbA"
+		},
+		{
+			"name": "Drawing Graphics",
+			"watchid": "2l5-5PMUc5Y"
+		},
+		{
+			"name": "JColorChooser",
+			"watchid": "052U-bWEXrk"
+		},
+		{
+			"name": "Drawing More Stuff",
+			"watchid": "OWOeE90ET6w"
+		},
+		{
+			"name": "Series Finale",
+			"watchid": "38UOAo1c_QA"
+		}
+	]
+}
 ]
 
 function load() {
