@@ -127,107 +127,350 @@ var data = [{
             }
         ]
     },
+    {
+        "name": "CSS For Beginners",
+        "items": [{
+                "name": "Introduction to CSS",
+                "watchid": "qKoajPPWpmo"
+            },
             {
-                    "name":"CSS Layouts",
-                    "items":[  
-   {  
-      "name":"Introduction",
-      "watchid":"zO4DFCjgdx0"
-   },
-   {  
-      "name":"Styling the body",
-      "watchid":"u_fTLMswhZw"
-   },
-   {  
-      "name":"Adding header and navigation section",
-      "watchid":"cqTNHMipvhM"
-   },
-   {  
-      "name":"Adding the main content section",
-      "watchid":"gG2_M3JGEf0"
-   },
-   {  
-      "name":"Adding the sidebar",
-      "watchid":"qmqD4aTv18Q"
-   },
-   {  
-      "name":"Adding additional content panels",
-      "watchid":"1GNGtLbRyI4"
-   },
-   {  
-      "name":"Image sidebar",
-      "watchid":"w4x3tRr5cx4"
-   },
-   {  
-      "name":"Add effects to the Image sidebar",
-      "watchid":"cIMydJw0xxw"
-   },
-   {  
-      "name":"Adding the footer",
-      "watchid":"1t6BP_u52Ik"
-   },
-   {  
-      "name":"Organizing the stylesheet",
-      "watchid":"ZiOO-e76ToA"
-   },
-   {  
-      "name":"Navigation bar and buttons",
-      "watchid":"SO19MuWuxfU"
-   },
-   {  
-      "name":"Finishing the buttons",
-      "watchid":"552fTCIzOyc"
-   },
-   {  
-      "name":"Working in the header",
-      "watchid":"S7-DaHRsLG8"
-   },
-   {  
-      "name":"Working in the footer",
-      "watchid":"kpq9M3Nnwb0"
-   },
-   {  
-      "name":"Source control",
-      "watchid":"wpuwU7MwKVI"
-   },
-   {  
-      "name":"The Fixed Layout",
-      "watchid":"-6YZD0aai0U"
-   },
-   {  
-      "name":"The Fixed Layout Part 2",
-      "watchid":"Yt6tMzQIGGA"
-   },
-   {  
-      "name":"The Fixed Layout Part 3",
-      "watchid":"bP3nckT2Muc"
-   },
-   {  
-      "name":"Adding a logo to the layout",
-      "watchid":"Wa_QmxwpFC8"
-   },
-   {  
-      "name":"Media queries",
-      "watchid":"3SFRSrPDwiw"
-   },
-   {  
-      "name":"Media queries Part 2",
-      "watchid":"1DtH6icymR8"
-   },
-   {  
-      "name":"Media queries Part 3",
-      "watchid":"xEyerXP2UF8"
-   },
-   {  
-      "name":"Media queries Part 4",
-      "watchid":"9_ffVe4d6e4"
-   },
-   {  
-      "name":"The next step",
-      "watchid":"MaDGbjuLH4I"
-   }
-]
+                "name": "Changing font type, color, and size",
+                "watchid": "UO0ZPL8yMpU"
+            },
+            {
+                "name": "Multiple selectors and writing rule for more than one element",
+                "watchid": "JT0gyzbpD2U"
+            },
+            {
+                "name": "Add a line to header and border property",
+                "watchid": "hCoMjvtsyPA"
+            },
+            {
+                "name": "Inheritance and overriding",
+                "watchid": "Bj2ZCfDPP2A"
+            },
+            {
+                "name": "Using Classes in CSS",
+                "watchid": "u4dLB9NP3IA"
+            },
+            {
+                "name": "More on Classes in CSS",
+                "watchid": "KULYFC545qY"
+            },
+            {
+                "name": "Font Family",
+                "watchid": "bWDtPnNkutw"
+            },
+            {
+                "name": "The Font Weight Property",
+                "watchid": "DFgXjen2JS0"
+            },
+            {
+                "name": "Using an external style sheet",
+                "watchid": "QT_lIti-8Zk"
+            },
+            {
+                "name": "Text-decoration property",
+                "watchid": "kp9CWRRLjAM"
+            },
+            {
+                "name": "Italic fonts",
+                "watchid": "XtgrFq5_QQM"
+            },
+            {
+                "name": "Web Colors",
+                "watchid": "sbtD9AP9W70"
+            },
+            {
+                "name": "Using inline style",
+                "watchid": "bHxGUfgbrY8"
+            },
+            {
+                "name": "More on Font sizes",
+                "watchid": "GbqmpIfPL6c"
+            },
+            {
+                "name": "Line height property",
+                "watchid": "reRKJa7gyF0"
+            },
+            {
+                "name": "CSS Box Model Part 1",
+                "watchid": "3n9UbOvMZ30"
+            },
+            {
+                "name": "CSS Box Model Part 2",
+                "watchid": "l3Cu_s61zaU"
+            },
+            {
+                "name": "CSS Box Model Part 3",
+                "watchid": "b-A7LiWySHE"
+            },
+            {
+                "name": "CSS Box Model Part 4",
+                "watchid": "4GZqsfPSJB0"
+            },
+            {
+                "name": "Background image property",
+                "watchid": "9vo8nTQ7s5A"
+            },
+            {
+                "name": "The ID Attribute",
+                "watchid": "ZuuEdXXzG7I"
+            },
+            {
+                "name": "The text align property",
+                "watchid": "tEucu932gg8"
+            },
+            {
+                "name": "Border Property Part 1",
+                "watchid": "7J1fGcLggc4"
+            },
+            {
+                "name": "Border Property Part 2",
+                "watchid": "qhUDC4eQFuc"
+            },
+            {
+                "name": "The DIV element",
+                "watchid": "xZOeC1D61mI"
+            },
+            {
+                "name": "The SPAN element",
+                "watchid": "XeA2wdj74O4"
+            },
+            {
+                "name": "Add content page and reuse some of our CSS classes",
+                "watchid": "5enJfW3weCQ"
+            },
+            {
+                "name": "Special effects",
+                "watchid": "01GUwH6kn2U"
+            },
+            {
+                "name": "Block and Inline elements",
+                "watchid": "IaOggxOFjTk"
+            },
+            {
+                "name": "Block and Inline elements Part 2",
+                "watchid": "RzWDDOwFPCA"
+            },
+            {
+                "name": "Block and Inline elements Part 3",
+                "watchid": "0LN4iCdb8To"
+            },
+            {
+                "name": "Floating an element",
+                "watchid": "YjJfViBul94"
+            },
+            {
+                "name": "Absolute position for an element",
+                "watchid": "s_GBRa9wva4"
+            },
+            {
+                "name": "Fixed position for an element",
+                "watchid": "TqgLBBqWRqk"
+            },
+            {
+                "name": "The overflow property",
+                "watchid": "1aT81-e3viA"
+            },
+            {
+                "name": "The cursor property",
+                "watchid": "wky2u_WbFGs"
+            },
+            {
+                "name": "Custom cursor",
+                "watchid": "WyFI1T_-hqs"
+            },
+            {
+                "name": "Text and images",
+                "watchid": "Hx3SU5a-kSQ"
+            },
+            {
+                "name": "Relative positioning",
+                "watchid": "yuUZcN-jZ2o"
+            },
+            {
+                "name": "Vertical menu",
+                "watchid": "2FuSeUkHfVo"
+            },
+            {
+                "name": "Vertical menu Part 2",
+                "watchid": "byyoTbrY8sc"
+            },
+            {
+                "name": "Horizontal menu",
+                "watchid": "dZYy72ObKf0"
+            },
+            {
+                "name": "A nice button",
+                "watchid": "GnF1gGUP-jo"
+            },
+            {
+                "name": "The inline-block",
+                "watchid": "GPuhnX8uhWw"
+            },
+            {
+                "name": "Web Forms Part 1",
+                "watchid": "aUDxjDrJL0o"
+            },
+            {
+                "name": "Web Forms Part 2",
+                "watchid": "Rfdj57trRq4"
+            },
+            {
+                "name": "Review and descendant selector - Selectors Part 1",
+                "watchid": "QbpUgzOHRQo"
+            },
+            {
+                "name": "Child selectors - Selectors Part 2",
+                "watchid": "kaYQ9n8aRkg"
+            },
+            {
+                "name": "Strategies - Selectors Part 3",
+                "watchid": "lLj1CfhEXws"
+            },
+            {
+                "name": "Sibling selector - Selectors Part 4",
+                "watchid": "kb8YNwUYPGc"
+            },
+            {
+                "name": "Attribute Selector - Selectors Part 5",
+                "watchid": "LKzc60DMy4A"
+            },
+            {
+                "name": "nth child Selector - Selectors Part 6",
+                "watchid": "8ltqU8rBM8Y"
+            },
+            {
+                "name": "not Selector - Selectors Part 7",
+                "watchid": "WT46ES9ZDC4"
+            },
+            {
+                "name": "first Selector - Selectors Part 8",
+                "watchid": "osDhqRznpVo"
+            },
+            {
+                "name": "Opacity property Part 1 - Working against a DIV",
+                "watchid": "KPfak1k4Mgo"
+            },
+            {
+                "name": "Linear gradients",
+                "watchid": "n-pFwN16dr8"
+            },
+            {
+                "name": "Lets combine opacity and gradient",
+                "watchid": "2AJEQDBJxNE"
+            },
+            {
+                "name": "Text shadow",
+                "watchid": "CYHvB1p38FU"
+            },
+            {
+                "name": "Box shadow",
+                "watchid": "6kxNaKhn0Oc"
             }
+        ]
+    },
+    {
+        "name": "CSS Layouts",
+        "items": [{
+                "name": "Introduction",
+                "watchid": "zO4DFCjgdx0"
+            },
+            {
+                "name": "Styling the body",
+                "watchid": "u_fTLMswhZw"
+            },
+            {
+                "name": "Adding header and navigation section",
+                "watchid": "cqTNHMipvhM"
+            },
+            {
+                "name": "Adding the main content section",
+                "watchid": "gG2_M3JGEf0"
+            },
+            {
+                "name": "Adding the sidebar",
+                "watchid": "qmqD4aTv18Q"
+            },
+            {
+                "name": "Adding additional content panels",
+                "watchid": "1GNGtLbRyI4"
+            },
+            {
+                "name": "Image sidebar",
+                "watchid": "w4x3tRr5cx4"
+            },
+            {
+                "name": "Add effects to the Image sidebar",
+                "watchid": "cIMydJw0xxw"
+            },
+            {
+                "name": "Adding the footer",
+                "watchid": "1t6BP_u52Ik"
+            },
+            {
+                "name": "Organizing the stylesheet",
+                "watchid": "ZiOO-e76ToA"
+            },
+            {
+                "name": "Navigation bar and buttons",
+                "watchid": "SO19MuWuxfU"
+            },
+            {
+                "name": "Finishing the buttons",
+                "watchid": "552fTCIzOyc"
+            },
+            {
+                "name": "Working in the header",
+                "watchid": "S7-DaHRsLG8"
+            },
+            {
+                "name": "Working in the footer",
+                "watchid": "kpq9M3Nnwb0"
+            },
+            {
+                "name": "Source control",
+                "watchid": "wpuwU7MwKVI"
+            },
+            {
+                "name": "The Fixed Layout",
+                "watchid": "-6YZD0aai0U"
+            },
+            {
+                "name": "The Fixed Layout Part 2",
+                "watchid": "Yt6tMzQIGGA"
+            },
+            {
+                "name": "The Fixed Layout Part 3",
+                "watchid": "bP3nckT2Muc"
+            },
+            {
+                "name": "Adding a logo to the layout",
+                "watchid": "Wa_QmxwpFC8"
+            },
+            {
+                "name": "Media queries",
+                "watchid": "3SFRSrPDwiw"
+            },
+            {
+                "name": "Media queries Part 2",
+                "watchid": "1DtH6icymR8"
+            },
+            {
+                "name": "Media queries Part 3",
+                "watchid": "xEyerXP2UF8"
+            },
+            {
+                "name": "Media queries Part 4",
+                "watchid": "9_ffVe4d6e4"
+            },
+            {
+                "name": "The next step",
+                "watchid": "MaDGbjuLH4I"
+            }
+        ]
+    }
 ]
 
 function load() {
