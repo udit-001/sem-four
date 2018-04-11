@@ -824,8 +824,8 @@ var data = [{
             },
         ]
     },
-	{
-        "name": "Statistics - Random Variable",
+    {
+        "name": "Statistics & Probability - Random Variable",
         "items": [{
                 "name": "Random Variable",
                 "watchid": "bQ0ad5YMhzk"
@@ -1037,6 +1037,258 @@ var data = [{
             {
                 "name": "Binomial Dist. - Approx. 5",
                 "watchid": "q3gJJuBZunw"
+            }
+        ]
+    },
+    {
+        "name": "Statistics - Basics",
+        "items": [{
+                "name": "Introduction",
+                "watchid": "f26vt5uQ_uI"
+            },
+            {
+                "name": "Definition of Sets and Elements",
+                "watchid": "GY86lxlWWbM"
+            },
+            {
+                "name": "Definition of Sample Spaces & Factorials",
+                "watchid": "WelPq6Kgf7s"
+            },
+            {
+                "name": "Definition of Events",
+                "watchid": "EOk25Tb-1bM"
+            },
+            {
+                "name": "Definition of Intersection, Union, Compliment, Venn Diagram",
+                "watchid": "GU_2eQvVlCg"
+            },
+            {
+                "name": "De Morgan's Law Explained",
+                "watchid": "2qCDKt23jHQ"
+            },
+            {
+                "name": "Union and Intersection - Another Look",
+                "watchid": "ZuuXPW36OYU"
+            },
+            {
+                "name": "The Probability Function - A First Look",
+                "watchid": "i6_byEFjKEA"
+            },
+            {
+                "name": "The Probability Function - Flipping 3 Coins, Example",
+                "watchid": "zReGHNdWvIo"
+            },
+            {
+                "name": "The Probability Function - Flipping Coins - General Formula 1",
+                "watchid": "7utYtIpTDSU"
+            },
+            {
+                "name": "The Probability Function - Flipping Coins - General Formula 2",
+                "watchid": "wd3-i7kwXmk"
+            },
+            {
+                "name": "The Probability Function - Flipping 10 Coins - Example",
+                "watchid": "aHAYefD5sy0"
+            },
+            {
+                "name": "The Probability of an Event NOT Occurring",
+                "watchid": "HpXAlpnoq1U"
+            },
+            {
+                "name": "The Probability of A or B (Independent Events)",
+                "watchid": "tjwc_Y34Pms"
+            },
+            {
+                "name": "The Probability of A or B (Dependent Events)",
+                "watchid": "fAQrTvEYB0A"
+            },
+            {
+                "name": "The Probability of A or B (Dependent Events)",
+                "watchid": "M6sPl1FO_Q0"
+            },
+            {
+                "name": "The At Least One or Once Rule",
+                "watchid": "VMcBkIhzEhU"
+            },
+            {
+                "name": "The At Least One or Once Rule - Example",
+                "watchid": "-b6FuQvHEmQ"
+            },
+            {
+                "name": "The At Least One or Once Rule - Example 2",
+                "watchid": "r9SJxqcWOw8"
+            },
+            {
+                "name": "The At Least One or Once Rule - Example 3",
+                "watchid": "JEfk_KGBwzg"
+            },
+            {
+                "name": "Probability - 4 More Basic Examples",
+                "watchid": "7TxSi1FwSSo"
+            },
+            {
+                "name": "Probability - 3 More Basic Examples",
+                "watchid": "rOohq7jsq-A"
+            },
+            {
+                "name": "Calculating the Odds -For, -Against, and -On",
+                "watchid": "n9FtpMcJ2x4"
+            },
+            {
+                "name": "Calculating the Odds and Horse Racing",
+                "watchid": "2xXUK7GLo1s"
+            },
+            {
+                "name": "Conditional Probability Explained",
+                "watchid": "IN1T8eMAjPg"
+            },
+            {
+                "name": "Conditional Probability (of a Person Born)",
+                "watchid": "Lv5Bgpokkg4"
+            },
+            {
+                "name": "Conditional Probability - Independent Event Explained",
+                "watchid": "EdSZ9Qfz7Tg"
+            },
+            {
+                "name": "Basic Definitions and Symbols Summarized",
+                "watchid": "21V9WBJLAL8"
+            },
+            {
+                "name": "Basic Theorems 1 - 5",
+                "watchid": "vSeLNpORtaw"
+            },
+            {
+                "name": "Basic Theorems 6 - 10",
+                "watchid": "0h1lnzQR_5o"
+            },
+            {
+                "name": "Basic Theorems 11 - 14",
+                "watchid": "nSXFtcHKfOk"
+            },
+            {
+                "name": "Calculation Probability Summary (1 of 3)",
+                "watchid": "VM8mhbkkqeU"
+            },
+            {
+                "name": "Calculation Probability Summary (2 of 3)",
+                "watchid": "PGpVB2SGghg"
+            },
+            {
+                "name": "Calculation Probability Summary (3 of 3)",
+                "watchid": "6ZdQ2JOlq0A"
+            },
+            {
+                "name": "Combinations and Permutations Explained",
+                "watchid": "nWEtNq4_ehg"
+            },
+            {
+                "name": "Permutations and Combinations - Example 1",
+                "watchid": "Uh8I_nrMy_s"
+            },
+            {
+                "name": "Permutations and Combinations - Example 2",
+                "watchid": "uLGljYtX4Ks"
+            },
+            {
+                "name": "Permutations and Combinations - Example 3",
+                "watchid": "jDLxX1UH_5I"
+            },
+            {
+                "name": "Permutations and Combinations - Example 4",
+                "watchid": "BVPLxtyH730"
+            },
+            {
+                "name": "Permutations and Combinations - Example 5",
+                "watchid": "jZrQA-Z5cnY"
+            },
+            {
+                "name": "Permutations and Combinations - Example 6",
+                "watchid": "Tit-HHqBMc8"
+            },
+            {
+                "name": "Permutations and Combinations - Example",
+                "watchid": "RV6X8BlO2_Y"
+            },
+            {
+                "name": "Permutations and Combinations - Example 8",
+                "watchid": "7DAEOfbLePg"
+            },
+            {
+                "name": "Permutations and Combinations - Example 9",
+                "watchid": "xQ2IrexgMv4"
+            },
+            {
+                "name": "Permutations and Combinations - Example 10",
+                "watchid": "Fo8YdimvS24"
+            },
+            {
+                "name": "Permutations and Combinations - Example 11",
+                "watchid": "jq-27MUFm6o"
+            },
+            {
+                "name": "Permutations and Combinations - Example 12",
+                "watchid": "QquicwTEiX4"
+            },
+            {
+                "name": "Permutations and Combinations - Example 13",
+                "watchid": "T5EWSbDLf_U"
+            },
+            {
+                "name": "Permutations and Combinations - Example 14",
+                "watchid": "iAy0EG4LCd4"
+            },
+            {
+                "name": "Permutations and Combinations - Example 15",
+                "watchid": "qYcAt0qb5RA"
+            },
+            {
+                "name": "Permutations and Combinations - Example 16",
+                "watchid": "JSm2pk6Pjvw"
+            },
+            {
+                "name": "Permutations and Combinations - Example 17",
+                "watchid": "JTBS94sskvc"
+            },
+            {
+                "name": "Permutations and Combinations - Example 18",
+                "watchid": "PH7UhwQXllY"
+            },
+            {
+                "name": "Conditional Probability Basics",
+                "watchid": "Vg7CU6KjIlc"
+            },
+            {
+                "name": "Conditional Probability - Example",
+                "watchid": "_Jp95CcOfRA"
+            },
+            {
+                "name": "Conditional Probability - Theorem 1 ",
+                "watchid": "_QUbIkeklSk"
+            },
+            {
+                "name": "Conditional Probability - Theorem 2 ",
+                "watchid ": "Of9DRXz0XWQ"
+            },
+            {
+                "name": "Conditional Probability: Bayes' Theorem (Part 1 of 3)",
+                "watchid": "gtXQv6dfyvs"
+            },
+            {
+                "name": "Conditional Probability: Bayes' Theorem (Part 2 of 3)",
+                "watchid": "ODJ5ePSXtRM"
+            },
+            {
+                "name": "Conditional Probability: Bayes' Theorem (Part 3 of 3)",
+                "watchid": "gwpBkLIHKO4"
+            },
+            {
+                "name": "Conditional Probability: Baye's Theorem Example 2",
+                "watchid": "Dr7v_vG7pUc"
+            },
+            {
+                "name": "Conditional Probability: Baye's Theorem Example 1",
+                "watchid": "GZhluej5gfE"
             }
         ]
     }
