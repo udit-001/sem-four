@@ -126,7 +126,108 @@ var data = [{
                 "watchid": "lBlq6t9MLOg"
             }
         ]
-    }
+    },
+            {
+                    "name":"CSS Layouts",
+                    "items":[  
+   {  
+      "name":"Introduction",
+      "watchid":"zO4DFCjgdx0"
+   },
+   {  
+      "name":"Styling the body",
+      "watchid":"u_fTLMswhZw"
+   },
+   {  
+      "name":"Adding header and navigation section",
+      "watchid":"cqTNHMipvhM"
+   },
+   {  
+      "name":"Adding the main content section",
+      "watchid":"gG2_M3JGEf0"
+   },
+   {  
+      "name":"Adding the sidebar",
+      "watchid":"qmqD4aTv18Q"
+   },
+   {  
+      "name":"Adding additional content panels",
+      "watchid":"1GNGtLbRyI4"
+   },
+   {  
+      "name":"Image sidebar",
+      "watchid":"w4x3tRr5cx4"
+   },
+   {  
+      "name":"Add effects to the Image sidebar",
+      "watchid":"cIMydJw0xxw"
+   },
+   {  
+      "name":"Adding the footer",
+      "watchid":"1t6BP_u52Ik"
+   },
+   {  
+      "name":"Organizing the stylesheet",
+      "watchid":"ZiOO-e76ToA"
+   },
+   {  
+      "name":"Navigation bar and buttons",
+      "watchid":"SO19MuWuxfU"
+   },
+   {  
+      "name":"Finishing the buttons",
+      "watchid":"552fTCIzOyc"
+   },
+   {  
+      "name":"Working in the header",
+      "watchid":"S7-DaHRsLG8"
+   },
+   {  
+      "name":"Working in the footer",
+      "watchid":"kpq9M3Nnwb0"
+   },
+   {  
+      "name":"Source control",
+      "watchid":"wpuwU7MwKVI"
+   },
+   {  
+      "name":"The Fixed Layout",
+      "watchid":"-6YZD0aai0U"
+   },
+   {  
+      "name":"The Fixed Layout Part 2",
+      "watchid":"Yt6tMzQIGGA"
+   },
+   {  
+      "name":"The Fixed Layout Part 3",
+      "watchid":"bP3nckT2Muc"
+   },
+   {  
+      "name":"Adding a logo to the layout",
+      "watchid":"Wa_QmxwpFC8"
+   },
+   {  
+      "name":"Media queries",
+      "watchid":"3SFRSrPDwiw"
+   },
+   {  
+      "name":"Media queries Part 2",
+      "watchid":"1DtH6icymR8"
+   },
+   {  
+      "name":"Media queries Part 3",
+      "watchid":"xEyerXP2UF8"
+   },
+   {  
+      "name":"Media queries Part 4",
+      "watchid":"9_ffVe4d6e4"
+   },
+   {  
+      "name":"The next step",
+      "watchid":"MaDGbjuLH4I"
+   }
+]
+            }
 ]
 
 function load() {
