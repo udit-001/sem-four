@@ -208,7 +208,7 @@ button:hover {
 @media (max-width: 800px){
 
   .lessons-page body{
-    overflow: hidden;
+    overflow-y: hidden;
     position: fixed;
   }
 
