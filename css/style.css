@@ -209,6 +209,7 @@ button:hover {
 
   .lessons-page body{
     overflow: hidden;
+    position: fixed;
   }
 
   #video-fr{
