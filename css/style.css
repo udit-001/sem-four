@@ -199,6 +199,10 @@ button:hover {
   content: '\00d7';
 }
 
+#previous{
+  display:none;
+}
+
 @media (max-width: 800px){
 
   .lessons-page body{
