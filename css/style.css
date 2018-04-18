@@ -54,6 +54,8 @@ body {
   width: 100%;
   background-color: #004346;
   color: white;
+  align-items: center;
+
         /*box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/;
 }
 
@@ -90,7 +92,7 @@ li {
 
 #nav_menu {
   flex: 1;
-  padding: 0px 16px 20px 16px;
+  padding: 0 0 0 12px;
   cursor: pointer;
   vertical-align: middle;
   line-height: 60px;
@@ -101,7 +103,9 @@ li {
   flex: 10;
   text-align: center;
   vertical-align: middle;
-  line-height: 10vh;
+  line-height: 4.5vh;
+  font-size:3.4vmin;
+  padding:10px;
 }
 
 button {
@@ -216,7 +220,10 @@ button:hover {
   }
 
   #video-title{
-    font-size:5.0vmin;
+    font-size:calc(2.5vh);
+    line-height: 5.2vw;
+    text-overflow: ellipsis;
+    padding-right:8px;
   }
 
   #container{
