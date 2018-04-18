@@ -200,7 +200,7 @@ button:hover {
 }
 
 #previous{
-  display:none;
+  visibility:hidden;
 }
 
 @media (max-width: 800px){
