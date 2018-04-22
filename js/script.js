@@ -59,7 +59,7 @@ function clicked(ele) {
 
 function collapse() {
     if($(window).width() <= 800){
-         $("#navigator").toggle("slide",550);
+         $("#navigator").toggle("slide",500);
     }
     else{
         $("#navigator").toggle("fold",550);
