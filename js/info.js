@@ -1883,5 +1883,25 @@ var data = [{
 			"watchid": "38UOAo1c_QA"
 		}
 	]
+},
+{
+    "name": "XML For Beginners",
+    "items": [{
+            "name": "Basics of XML",
+            "watchid": "qgZVAznwX38"
+        }, 
+        {
+            "name": "Rules of XML",
+            "watchid": "_44DPLiCFa0"
+        },
+        {
+            "name": "XML DTD",
+            "watchid": "TZNwte5MZaY"
+        },
+        {
+            "name": "XML Schema",
+            "watchid": "PYHMqvARNkA"
+        }
+    ]
 }
 ]
