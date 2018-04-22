@@ -135,9 +135,3 @@ function pageNotFound() {
 function reset() {
     window.localStorage.setItem("name", "");
 }
-
-function closeMenu(){
-    var navigator = document.getElementById("navigator");
-
-    navigator.style.display = "none";
-}
