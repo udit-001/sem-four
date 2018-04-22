@@ -56,7 +56,7 @@ body {
   color: white;
   align-items: center;
 
-        /*box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/;
+  /*box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/;
 }
 
 #video {
@@ -122,8 +122,8 @@ button {
   cursor: pointer;
   outline: none;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
-              0 1px 5px 0 rgba(0, 0, 0, 0.12), 
-              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12), 
+  0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
@@ -145,9 +145,11 @@ button:hover {
   flex:2;
 }
 
-.header {
+.header-container {
   font-size: calc(1vw + 3vh);
   width: 100%;
+  display: flex;
+  align-items: center;
   background-color: #0097A7;
   color: white;
   text-align: center;
@@ -156,7 +158,24 @@ button:hover {
   position: fixed;
   top:0;
   z-index: 1;
-  box-shadow: 0 8px 6px -6px #999
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.submit-header{
+  font-size: calc(1vw + 3vh);
+  width: 100%;
+   background-color: #0097A7;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  box-shadow: 0 8px 6px -6px #999;
+}
+.header{
+  flex:2;
 }
 
 .container {
@@ -205,6 +224,18 @@ button:hover {
 
 #previous{
   visibility:hidden;
+}
+
+#upload{
+  float:right;
+  margin:16px 16px 16px 0;
+  cursor: pointer;
+}
+
+#home{
+  float:left;
+  margin:16px 0 16px 16px;
+  cursor: pointer;
 }
 
 @media (max-width: 800px){
