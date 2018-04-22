@@ -69,16 +69,17 @@
     <center>
         <div class="form-container">
             <form method=post action="https://formspree.io/mittaludit98@gmail.com">
-                <input name="title" type="text" name=title placeholder="Title of Video / Playlist" required/>
+                <input name="_replyto" type="email" placeholder="Your Email" required />
+                <input name="title" type="text" placeholder="Title of Video / Playlist" required/>
                 <select name="type" required>
                     <option value="" selected disabled>Select Video / Playlist</option>
                     <option value="playlist">Playlist</option>
-                    <option valud="video">Video</option>
+                    <option value="video">Video</option>
                 </select>
-                <input name="url" type="url" pattern="https?://.+" name=title placeholder="Link of Video / Playlist" required/>
-                <input name="subject" type="text" name=title placeholder="Subject Name" required />
+                <input name="url" type="url" pattern="https?://.+" placeholder="Link of Video / Playlist" required/>
+                <input name="subject" type="text" placeholder="Subject Name" required />
                 <textarea name="message" style="resize:none;" placeholder="Your message" required></textarea>
-                <br>
+                <br />
                 <button type=submit>Submit</button>
             </form>
         </div>
