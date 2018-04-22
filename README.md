@@ -11,3 +11,4 @@ Right now the instructional videos added to this site are centered around Web Te
 ## Features
 - Mobile - Frienly
 - Functionality to submit videos so that they can be added to the website
+- Sidebar Animations
