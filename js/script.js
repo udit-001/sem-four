@@ -58,11 +58,11 @@ function clicked(ele) {
 }
 
 function collapse() {
-    var nav = document.getElementById("navigator");
-    if (nav.style.display == "block") {
-        nav.style.display = "none";
-    } else {
-        nav.style.display = "block";
+    if($(window).width() <= 800){
+         $("#navigator").toggle("slide",550);
+    }
+    else{
+        $("#navigator").toggle("fold",550);
     }
 }
 
@@ -89,6 +89,7 @@ function next() {
             final = link.split("embed")[0] + "embed/" + data[index].items[i + 1].watchid + "?" + link.split("embed")[1].split("?")[1];
             video.src = final;
         }
+
     }
 }
 
