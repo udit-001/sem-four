@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>
+        Submit Tutorial - Semester Tutorials
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+    <style type="text/css">
+        .form-container {
+            position: absolute;
+            top: 70px;
+            z-index: 0;
+            margin: 18px 0 18px 0;
+            width: 100vw;
+        }
+        
+        input,
+        select,
+        textarea {
+            font-family: Roboto;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: #0097A7;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px 10px 20px 10px;
+            outline: none;
+            font-size: 4vmin;
+            width: 92vw;
+            border-width: 2px;
+        }
+        
+        button {
+            background-color: #0097A7;
+            width: 92vw;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            height: 50px;
+        }
+        
+        @media (min-width:830px) {
+            button {
+                width: 40vw;
+                font-size: 3vmin;
+                height: 5vw;
+            }
+            input,
+            select,
+            textarea {
+                width: 60vw;
+                font-size: 3vmin;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+     	<i id="home" class="fas fa-home" onclick="back()"></i>
+        <div class="header">
+            Submit Video
+        </div>
+    </div>
+    <center>
+        <div class="form-container">
+            <form method=post action="https://formspree.io/mittaludit98@gmail.com">
+                <input name="title" type="text" name=title placeholder="Title of Video / Playlist" required/>
+                <select name="type" required>
+                    <option value="" selected disabled>Select Video / Playlist</option>
+                    <option value="playlist">Playlist</option>
+                    <option valud="video">Video</option>
+                </select>
+                <input name="url" type="url" pattern="https?://.+" name=title placeholder="Link of Video / Playlist" required/>
+                <input name="subject" type="text" name=title placeholder="Subject Name" required />
+                <textarea name="message" style="resize:none;" placeholder="Your message" required></textarea>
+                <br>
+                <button type=submit>Submit</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
