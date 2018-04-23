@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -14,7 +13,9 @@
     <meta property="og:url" content="https://udit-001.github.io/sem-four/"/>
     <meta property="og:site_name" content="Semester IV Tutorials"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://udit-001.github.io/sem-four/favicon/android-chrome-192x192.png"/>
+    <meta property="og:image" content="https://udit-001.github.io/sem-four/favicon/preview.png"/>
+    <meta property="og:description" content="The place where BCA students in their fourth semester can prepare for their end term examinations. We provide handpicked tutorials from YouTube in a distraction free environment."/>
+    <meta property="og:title" content="Semester IV Tutorials"/>
     
     <!-- Favicons-->
     <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
@@ -26,6 +27,7 @@
     <meta name="theme-color" content="#ffffff">
     
     <!-- CSS and JS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/info.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
@@ -33,7 +35,9 @@
 
 <body onload="reset()">
     <noscript style="background-color:red;padding: 2rem; display:block; text-align: center; color: #fff; position: relative;">Dear User, Looks like you have disabled JavaScript on your browser, please enable it to be able to use our site!</noscript>
-    <div class="header">Semester IV Tutorials</div>
+    <div class="header-container">
+        <div class="header">Semester IV Tutorials</div>
+        <i id="upload" class="fas fa-cloud-upload-alt" onclick="window.location='./submission.html'"></i></div>
     <div class="container">
         <div class="card card-4" onclick="cardPressed(this)">
             <div class="info" style="background-color: #ba68c8; color:white;">S</div>
@@ -79,7 +83,11 @@
             <div class="info" style="background-color: #bcaaa4; color:black;">J</div>
             <div class="description">JavaScript For Beginners</div>
         </div>
-                <div class="card card-4" onclick="cardPressed(this)">
+        <div class="card card-4" onclick="cardPressed(this)">
+            <div class="info" style="background-color: #82b1ff; color:black;">X</div>
+            <div class="description">XML For Beginners</div>
+        </div>
+        <div class="card card-4" onclick="cardPressed(this)">
             <div class="info" style="background-color: #cddc39; color:black;">J</div>
             <div class="description">Java For Beginners</div>
         </div>
