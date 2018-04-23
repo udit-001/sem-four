@@ -60,6 +60,13 @@ function clicked(ele) {
 function collapse() {
     if($(window).width() <= 800){
          $("#navigator").toggle("slide",500);
+         $("#ui-dismiss").toggle("fade");
+         $("#ui-dismiss").click(function () {
+            $("#navigator").hide("slide",500);
+            $("#ui-dismiss").hide("fade",500);
+        });
+        $("body").css("overflow","hidden");
+        $("#items:last-child").css("padding-bottom","10px");
     }
     else{
         $("#navigator").toggle("fold",500);
