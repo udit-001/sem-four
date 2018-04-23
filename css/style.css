@@ -96,7 +96,7 @@ li {
   cursor: pointer;
   vertical-align: middle;
   line-height: 60px;
-  font-size:4.0vmin;
+  font-size:4.5vmin;
 }
 
 #video-title {
@@ -228,14 +228,14 @@ button:hover {
 
 #upload{
   float:right;
-  margin:16px 16px 16px 0;
   cursor: pointer;
+  padding-right:8px;
 }
 
 #home{
   float:left;
-  margin:16px 0 16px 16px;
   cursor: pointer;
+  padding-left:8px;
 }
 
 @media (max-width: 800px){
