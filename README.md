@@ -1,4 +1,4 @@
-# Material Design Course Viewer
+# [Material Design Course Viewer](https://udit-001.github.io/sem-four)
 A Distraction Free interface designed so that the user can focus on the content they want to study without being pestered by the cluttered environment that YouTube provides.
 
 Right now the instructional videos added to this site are centered around Web Technologies, Java, Statistics and Numerical Methods in Mathematics. But soon, functionality to view the playlist that user wants with no distractions would likewise be included.
