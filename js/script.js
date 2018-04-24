@@ -148,3 +148,19 @@ function pageNotFound() {
 function reset() {
     window.localStorage.setItem("name", "");
 }
+
+
+function keyShortcuts(e){
+	if(e.keyCode == 78){
+		next();
+	}
+	if(e.keyCode == 80){
+		previous();
+	}
+	if(e.keyCode == 27){
+		collapse();
+	}
+
+}
+
+document.addEventListener("keyup",keyShortcuts);
