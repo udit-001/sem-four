@@ -91,7 +91,7 @@ function next() {
                 document.getElementById("next").style.visibility = "visible";
                 document.getElementById("previous").style.visibility = "visible";
             }
-            document.getElementById("li"+i).scrollIntoView(true);
+            document.getElementById("li"+i).scrollIntoView({ block: 'start',  behavior: 'smooth' });
             heading.innerText = data[index].items[i + 1].name;
             document.title = data[index].items[i + 1].name;
             name.nextSibling.className = "selected";
@@ -119,7 +119,7 @@ function previous() {
                 document.getElementById("next").style.visibility = "visible";
                 document.getElementById("previous").style.visibility = "visible";
             }
-            document.getElementById("li"+(i-1)).scrollIntoView(true);
+            document.getElementById("li"+(i-1)).scrollIntoView({block: 'start',  behavior: 'smooth' });
             heading.innerText = data[index].items[i - 1].name;
             document.title = data[index].items[i - 1].name;
             name.previousSibling.className = "selected";
