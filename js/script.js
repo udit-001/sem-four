@@ -55,6 +55,10 @@ function clicked(ele) {
     var final;
     final = link.split("embed")[0] + "embed/" + data[index].items[parseInt(ele.id.substring(2))].watchid + "?" + link.split("embed")[1].split("?")[1];
     video.src = final;
+    if($(window).width() <= 800){
+    	    $("#navigator").hide("slide",500);
+            $("#ui-dismiss").hide("fade",500);
+    }
 }
 
 function collapse() {
