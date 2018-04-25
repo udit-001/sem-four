@@ -9,6 +9,6 @@ Right now the instructional videos added to this site are centered around Web Te
 | Main Screen | Lesson Screen | Lesson-Menu Screen | Submission Portal |
 
 ## Features
-- Mobile - Frienly
+- Mobile - Friendly
 - Functionality to submit videos so that they can be added to the website
 - Sidebar Animations
