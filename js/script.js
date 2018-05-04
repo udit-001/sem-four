@@ -166,6 +166,6 @@ function keyShortcuts(e){
 function goToDrive(){
     var name = window.localStorage.getItem("name");
     var index = window.localStorage.getItem("index");
-    window.location.replace(data[index].drive);
+    window.open(data[index].drive);
 }
 document.addEventListener("keyup",keyShortcuts);
