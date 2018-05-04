@@ -134,10 +134,21 @@ li {
   font-size: 4.5vmin;
 }
 
+#drive{
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 4.5vmin;
+  flex: 1;
+  text-align:right;
+  padding-right:16px;
+  margin:0;
+}
+
 #video-title {
   -webkit-box-flex: 10;
   -ms-flex: 10;
-  flex: 10;
+  flex: 8;
   text-align: center;
   vertical-align: middle;
   line-height: 4.5vh;
