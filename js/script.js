@@ -160,6 +160,11 @@ function keyShortcuts(e){
 	if(e.keyCode == 27){
 		collapse();
 	}
+    if(e.keyCode == 75){
+        var iframe = document.getElementById("video-fr").contentWindow;
+        console.log(iframe);
+        iframe.postMessage('{"event":"command","func":"'+'pauseVideo'+   '","args":""}', '*');
+    }
 
 }
 
