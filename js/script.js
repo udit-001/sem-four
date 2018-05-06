@@ -173,4 +173,12 @@ function goToDrive(){
     var index = window.localStorage.getItem("index");
     window.open(data[index].drive);
 }
+
+var iframe = document.getElementById("video-fr").contentWindow;
+if(document.hidden === true){
+    iframe.postMessage('{"event":"command","func":"'+'pauseVideo'+   '","args":""}', '*');
+}
+else if(document.hidden === false){
+    iframe.postMessage('{"event":"command","func":"'+'playVideo'+   '","args":""}', '*');
+}
 document.addEventListener("keyup",keyShortcuts);
