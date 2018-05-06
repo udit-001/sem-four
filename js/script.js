@@ -62,12 +62,15 @@ function clicked(ele) {
 }
 
 function collapse() {
+    var iframe = document.getElementById("video-fr").contentWindow;
     if($(window).width() <= 800){
+       iframe.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
        $("#navigator").toggle("slide",500);
        $("#ui-dismiss").toggle("fade");
        $("#ui-dismiss").click(function () {
         $("#navigator").hide("slide",500);
         $("#ui-dismiss").hide("fade",500);
+        iframe.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
     });
        $("body").css("overflow","hidden");
        $("#items:last-child").css("padding-bottom","10px");
