@@ -56,25 +56,25 @@ function clicked(ele) {
     final = link.split("embed")[0] + "embed/" + data[index].items[parseInt(ele.id.substring(2))].watchid + "?" + link.split("embed")[1].split("?")[1];
     video.src = final;
     if($(window).width() <= 800){
-    	    $("#navigator").hide("slide",500);
-            $("#ui-dismiss").hide("fade",500);
-    }
+       $("#navigator").hide("slide",500);
+       $("#ui-dismiss").hide("fade",500);
+   }
 }
 
 function collapse() {
     if($(window).width() <= 800){
-         $("#navigator").toggle("slide",500);
-         $("#ui-dismiss").toggle("fade");
-         $("#ui-dismiss").click(function () {
-            $("#navigator").hide("slide",500);
-            $("#ui-dismiss").hide("fade",500);
-        });
-        $("body").css("overflow","hidden");
-        $("#items:last-child").css("padding-bottom","10px");
-    }
-    else{
-        $("#navigator").toggle("fold",500);
-    }
+       $("#navigator").toggle("slide",500);
+       $("#ui-dismiss").toggle("fade");
+       $("#ui-dismiss").click(function () {
+        $("#navigator").hide("slide",500);
+        $("#ui-dismiss").hide("fade",500);
+    });
+       $("body").css("overflow","hidden");
+       $("#items:last-child").css("padding-bottom","10px");
+   }
+   else{
+    $("#navigator").toggle("fold",500);
+}
 }
 
 function next() {
@@ -174,11 +174,13 @@ function goToDrive(){
     window.open(data[index].drive);
 }
 
-var iframe = document.getElementById("video-fr").contentWindow;
-if(document.hidden === true){
-    iframe.postMessage('{"event":"command","func":"'+'pauseVideo'+   '","args":""}', '*');
-}
-else if(document.hidden === false){
-    iframe.postMessage('{"event":"command","func":"'+'playVideo'+   '","args":""}', '*');
-}
+document.addEventListener('visibilitychange',function() {
+    var iframe = document.getElementById("video-fr").contentWindow;
+    if(document.hidden){
+        iframe.postMessage('{"event":"command","func":"'+'pauseVideo'+   '","args":""}', '*');
+    }
+    else{
+        iframe.postMessage('{"event":"command","func":"'+'playVideo'+   '","args":""}', '*');
+    }
+});
 document.addEventListener("keyup",keyShortcuts);
