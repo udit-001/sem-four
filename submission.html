@@ -18,6 +18,8 @@
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#0097A7">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Google Tag Manager -->
     <script>
@@ -39,69 +41,6 @@
     <!-- End Google Tag Manager -->
 
     <link rel="stylesheet" href="css/sem-tut-icon.css">
-
-    <style type="text/css">
-        .form-container {
-            position: absolute;
-            top: 70px;
-            z-index: 0;
-            margin: 18px 0 18px 0;
-            width: 100vw;
-        }
-        
-        input,
-        select,
-        textarea {
-            font-family: Muli;
-            border-top-color: transparent;
-            border-left-color: transparent;
-            border-right-color: transparent;
-            border-bottom-color: #0097A7;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding: 10px 10px 20px 10px;
-            outline: none;
-            font-size: 4vmin;
-            width: 92vw;
-            border-width: 2px;
-            -ms-box-sizing: content-box;
-            -moz-box-sizing: content-box;
-            -webkit-box-sizing: content-box;
-            box-sizing: content-box;
-        }
-        
-        button {
-            background-color: #0097A7;
-            width: 92vw;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            border-radius: 3px;
-            height: 50px;
-        }
-        
-        button:hover {
-            color: #0097A7;
-            border-color: #0097A7;
-        }
-        
-        @media (min-width:830px) {
-            button {
-                width: 40vw;
-                font-size: 3vmin;
-                height: 5vw;
-            }
-            input,
-            select,
-            textarea {
-                width: 60vw;
-                font-size: 3vmin;
-                -ms-box-sizing: content-box;
-                -moz-box-sizing: content-box;
-                -webkit-box-sizing: content-box;
-                box-sizing: content-box;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -111,14 +50,13 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div class="header-container">
+    <div class="header-container flow-text">
         <a href="./"><i id="home" class="icon-home" style="color:white;"></i></a>
         <div class="header">
             Submit Video
         </div>
     </div>
-    <center>
-        <div class="form-container">
+        <!-- <div class="form-container">
             <form method=post action="https://formspree.io/mittaludit98@gmail.com">
                 <input name="_replyto" type="email" placeholder="Your Email" required />
                 <input name="title" type="text" placeholder="Title of Video / Playlist" required/>
@@ -134,7 +72,69 @@
                 <br />
                 <button type=submit>Submit</button>
             </form>
+        </div> -->
+        <div class="container">
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                            <i class="material-icons prefix">title</i>
+                        <input type="text" id="title1" class="validate">
+                        <label for="title1">Title of Video / Playlist</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                        <input type="email" name="_replyto" id="email" class="validate">
+                        <label for="email">Your Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12" style="z-index:-1;">
+                        <select>
+                            <option value="" selected disabled>Select Video / Playlist</option>
+                            <option value="playlist">Playlist</option>
+                            <option value="video">Video</option>
+                        </select>
+                        <label>Type of Content</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">public</i>
+                        <input id="url" name="url" type="url" pattern="https?://.+" required/>
+                        <label for="url">URL</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">book</i>
+                        <input name="subject" id="subject" type="text" required />
+                        <label for="subject">Subject Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">chat</i>
+                        <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+                </div>
+                <div class="row">
+                <button class="btn waves-effect waves-light col s12 m4 offset-m4" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                </button>
+                </div>
+            </form>
         </div>
-    </center>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('select').formSelect();
+    });
+    </script>
 </body>
 </html>
