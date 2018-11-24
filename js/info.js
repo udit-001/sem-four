@@ -2185,5 +2185,254 @@ var data = [{
       "watchid": "hgr5O0du-sg"
     }
   ]
+},
+{
+  "name": "Operating Systems",
+  "items": [
+    {
+      "name": "Definition or Need of Operating system ",
+      "watchid": "YwqexcfbucE"
+    },
+    {
+      "name": "Goals and Functions of Operating System",
+      "watchid": "ENYFsXTaV2Y"
+    },
+    {
+      "name": "Batch Processing Operating System",
+      "watchid": "VtqPyXDaMr4"
+    },
+    {
+      "name": "SPOOLING in OS Operating System",
+      "watchid": "UQWV3DJ9Zj0"
+    },
+    {
+      "name": "Multiprogramming Operating System",
+      "watchid": "OOLy8jnl1hA"
+    },
+    {
+      "name": "Multitasking Operating System",
+      "watchid": "UcXWaeRikSo"
+    },
+    {
+      "name": "Multiprocessing Operating System",
+      "watchid": "xJ9yesCHLCI"
+    },
+    {
+      "name": "CPU bound vs input output bound process",
+      "watchid": "b8lRqwTuWZE"
+    },
+    {
+      "name": "CPU bound vs input output bound process",
+      "watchid": "x_UpLHXF9dU"
+    },
+    {
+      "name": "CPU Scheduling Terminologies",
+      "watchid": "qO2vg87t6oY"
+    },
+    {
+      "name": "Criteria for CPU Scheduling",
+      "watchid": "cviEfwtdcEE"
+    },
+    {
+      "name": "FCFS scheduling algorithm",
+      "watchid": "NzbeU0DQTDo"
+    },
+    {
+      "name": "Convoy effect",
+      "watchid": "cc-9wfIoMtg"
+    },
+    {
+      "name": "Shortest Job First scheduling algorithm",
+      "watchid": "U980LhlwZLg"
+    },
+    {
+      "name": "Advantage and Disadvantage of SJF algorithm",
+      "watchid": "n2SzwU8Irhk"
+    },
+    {
+      "name": "Priority scheduling algorithm",
+      "watchid": "cjZAhWWbQg4"
+    },
+    {
+      "name": "Advantage and Disadvantage of Priority scheduling algorithm",
+      "watchid": "Z_t9MHn1ogw"
+    },
+    {
+      "name": "Round Robin Scheduling Algorithm",
+      "watchid": "nEO3JZ48NPQ"
+    },
+    {
+      "name": "Advantage and Disadvantage in Round Robin scheduling algorithm",
+      "watchid": "cZQ1zYr1LGc"
+    },
+    {
+      "name": "Deadlock in operating system",
+      "watchid": "_zOTMOubT1M"
+    },
+    {
+      "name": "Necessary Conditions for Deadlock",
+      "watchid": "JABarkXjxpk"
+    },
+    {
+      "name": "Violation of mutual exclusion condition",
+      "watchid": "U7zKBXg-YOI"
+    },
+    {
+      "name": "Violation of mutual exclusion condition",
+      "watchid": "ok5jgFgUzrs"
+    },
+    {
+      "name": "Violation of Hold & Wait",
+      "watchid": "d8FYxikctgM"
+    },
+    {
+      "name": "Violation of No Pre-emption",
+      "watchid": "L3G9lzm-FSQ"
+    },
+    {
+      "name": "Violation of Circular Wait",
+      "watchid": "RSztuZf8-lY"
+    },
+    {
+      "name": "Race Condition in Operating System",
+      "watchid": "4BInccFSKso"
+    },
+    {
+      "name": "Practice Problems",
+      "watchid": "Tf7WNmxt7RA"
+    },
+    {
+      "name": "Critical Section Problem Operating System",
+      "watchid": "PoPePvh3cnY"
+    },
+    {
+      "name": "Using Turn Variable Two Process Solution",
+      "watchid": "oW8y-ctaIso"
+    },
+    {
+      "name": "Using Flag Variable Two Process Solution",
+      "watchid": "41am-gNWSpA"
+    },
+    {
+      "name": "Peterson Solution Operating System  & Dekker's Algorithm",
+      "watchid": "XAsAAJSotA4"
+    },
+    {
+      "name": "Practice Problem question on Process Synchronization",
+      "watchid": "rY75gHufIuk"
+    },
+    {
+      "name": "Semaphores - Process Synchronization",
+      "watchid": "VcVbUbPNIfw"
+    },
+    {
+      "name": "Previous year questions on Semaphores",
+      "watchid": "jDUJsCFNI0E"
+    },
+    {
+      "name": "Semaphores|Continues",
+      "watchid": "8KCeGWJBdSk"
+    },
+    {
+      "name": "Previous Year Practice Questions on Semaphores",
+      "watchid": "6Gv3G0_Nkck"
+    },
+    {
+      "name": "Previous Year Questions - Semaphores",
+      "watchid": "eOsmrY94JrY"
+    },
+    {
+      "name": "Producer Consumer Problem - Semaphores",
+      "watchid": "hyQz97Jym_w"
+    },
+    {
+      "name": "Reader Writer Problem - Semaphores",
+      "watchid": "kn2Okc2cAaQ"
+    },
+    {
+      "name": "Introduction to Memory management",
+      "watchid": "TAk822Wz4x4"
+    },
+    {
+      "name": "Basics of Contiguous and Non Contiguous",
+      "watchid": "LLhgnIYpQaI"
+    },
+    {
+      "name": "Fixed / Variable size partitioning",
+      "watchid": "PuZ_xChlInM"
+    },
+    {
+      "name": "Variable Size - Memory management",
+      "watchid": "EO4MlDEO89U"
+    },
+    {
+      "name": "Fixed Size Partitioning",
+      "watchid": "YcX-awpW9yc"
+    },
+    {
+      "name": "Contiguous Memory Allocation",
+      "watchid": "8_dDcNzogSg"
+    },
+    {
+      "name": "Paging | Memory management",
+      "watchid": "xAvC-MJ_Sz8"
+    },
+    {
+      "name": "Paging | Memory management",
+      "watchid": "Jftjc0mMwIg"
+    },
+    {
+      "name": "Paging | Memory management",
+      "watchid": "RBou-ekL1RI"
+    },
+    {
+      "name": "Paging | Memory management",
+      "watchid": "GvwU4te4_AY"
+    },
+    {
+      "name": "Translation Look Aside Buffer",
+      "watchid": "yVBh4IcGvSg"
+    },
+    {
+      "name": "Translation Look Aside Buffer",
+      "watchid": "kHhZUphoANI"
+    },
+    {
+      "name": "Paging",
+      "watchid": "NMtHuK2i2dc"
+    },
+    {
+      "name": "Paging",
+      "watchid": "gRzwXIRG1Dc"
+    },
+    {
+      "name": "Disk scheduling algorithmst",
+      "watchid": "aKmuGwHj3Cw"
+    },
+    {
+      "name": "FCFS disk scheduling algorithms",
+      "watchid": "034pt6kFLe8"
+    },
+    {
+      "name": "SSTF disk scheduling algorithms",
+      "watchid": "0Q-hvtonCfo"
+    },
+    {
+      "name": "SCAN disk scheduling algorithms",
+      "watchid": "gQqZ7SQ2Yfw"
+    },
+    {
+      "name": "C SCAN disk scheduling algorithms",
+      "watchid": "Au9BxxLEm5M"
+    },
+    {
+      "name": "LOOK disk scheduling algorithms",
+      "watchid": "5hKKzoLk1RY"
+    },
+    {
+      "name": "C look disk scheduling algorithms",
+      "watchid": "XqE8hka8ayY"
+    }
+  ]
 }
 ]
